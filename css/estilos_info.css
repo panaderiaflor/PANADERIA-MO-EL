@@ -1,0 +1,143 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background: rgba(248, 239, 186,1.0);
+}
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {
+	background:#ffa801;
+	overflow: hidden;
+}
+
+header .logo {
+	font-family: 'Dancing Script', cursive;
+	color:#fff;
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+.inicio{
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:#C08940;
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+
+.texto_titulo{
+	font-family: 'Cinzel', serif;
+}
+
+.texto_inf{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+.contenedor_texto{
+	margin: 40px 90px;
+	text-align: center;
+
+}
+
+
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}

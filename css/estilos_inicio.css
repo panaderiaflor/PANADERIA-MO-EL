@@ -1,0 +1,101 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background: rgba(248, 239, 186,1.0);
+	
+}
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {
+	background:#ffa801;
+	overflow: hidden;
+}
+
+header .logo {
+	font-family: 'Dancing Script', cursive;
+	color:#fff;
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+.inicio{
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:#C08940;
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+
+
+
+.slogan{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 50px;
+	margin: 30px;
+	color: #000;
+}
+
+
+.titulo{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	margin: 40px 0px 10px 0px;
+	text-align: center;
+
+}
+
+.titulo_contenido{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	text-align: center;
+}
+
+.mapa{
+	text-align: center;
+}

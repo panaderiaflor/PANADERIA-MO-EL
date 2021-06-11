@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.form-register {
+  width: 400px;
+  background: #F2A679;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #fff;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #F2D5A0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #401201;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #A63F03;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+input[type='submit']:hover{
+  cursor: pointer;
+  background: #A11A01;
+}
+
+
+.ok{
+  text-align: center;
+  width: 50px;
+  height: 200px;
+  padding: 12px;
+  background: #1e6;
+  color: #fff;
+}
+.bad{
+  text-align: center;
+  width: 100px;
+  padding: 12px;
+  background: #a22;
+  color: #fff;
+}

@@ -1,0 +1,105 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background:url(ped.jpg), #fff;
+	background-size: cover;
+	background-attachment:fixed;
+	
+}
+
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {
+	background:#ffa801;
+	overflow: hidden;
+}
+
+header .logo {
+	font-family: 'Dancing Script', cursive;
+	color:#fff;
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+.inicio{
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:#C08940;
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+
+
+
+form{
+	width: 700px;
+	margin: auto;
+	background: rgba(64, 1, 1,0.9);
+	margin-top: 40px;
+	border-radius: 10px;
+}
+input, textarea{
+	font-family: 'calibri';
+	margin: 15px;
+	padding: 10px;
+	width: 640px;
+	font-size: 18px;
+	margin-bottom: 8px;
+	
+	
+}
+textarea{
+	min-width: 640px;
+	max-width: 640px;
+	min-height: 100px;
+	max-height: 300px; 
+
+}
+input[type="submit"]{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}

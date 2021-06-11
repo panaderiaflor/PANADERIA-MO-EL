@@ -1,0 +1,115 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background:url(AAA.jpg), #fff;
+	background-size: cover;
+	background-attachment:fixed;
+	
+}
+
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {
+	background:#ffa801;
+	overflow: hidden;
+}
+
+header .logo {
+	font-family: 'Dancing Script', cursive;
+	color:#fff;
+	float:left;
+	font-size:30px;
+	line-height:80px;
+}
+.inicio{
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:#C08940;
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+
+
+
+
+
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    border: none;
+    padding: 0 0 10px 0;
+    background-color: #301809;
+}
+form{
+    background-color: #301809;
+    width: 310px;
+    padding: 10px 10px 0 10px;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+input{
+    display: block;
+    border: none;
+    margin: 25px auto;
+    width: 280px;
+    background-color: #ecf0f1;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+}
+legend{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+input[type="submit"]{
+    background-color: #C08940;
+    color: #301809;
+}
